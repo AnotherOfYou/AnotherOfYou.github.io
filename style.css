@@ -1,3 +1,14 @@
+#wrap { padding: 0; overflow: scroll; }
+    #frame {
+        -ms-zoom: 2.0;
+        -moz-transform: scale(2.0);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(2.0);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(2.0);
+        -webkit-transform-origin: 0 0;}
+        
+
 [style*="--aspect-ratio"] > :first-child {
     width: 100%;
   }
